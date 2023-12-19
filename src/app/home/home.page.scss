@@ -2,3 +2,21 @@ cdk-virtual-scroll-viewport {
   height: 100%;
   width: 100%;
 }
+
+cdk-virtual-scroll-viewport::before, 
+cdk-virtual-scroll-viewport::after { 
+  position: absolute; 
+
+  width: 1px; 
+  height: 1px; 
+
+  content: ""; 
+} 
+
+cdk-virtual-scroll-viewport::before { 
+  bottom: -1px; 
+} 
+
+cdk-virtual-scroll-viewport::after { 
+  top: -1px; 
+} 
