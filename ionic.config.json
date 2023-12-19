@@ -1,0 +1,7 @@
+{
+  "name": "virtual-scroll-grid",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
